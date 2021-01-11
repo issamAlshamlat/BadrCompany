@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         setupUI()
         setupTableView()
-        
+        fetchData()
     }
 
     private func setupUI () {
@@ -41,6 +41,23 @@ class ViewController: UIViewController {
     }
     
     private func setupTableView () {
+        
+    }
+    
+    func fetchData () {
+        self.view.isUserInteractionEnabled = false
+        RequestManager.getUserInfo { (success, responseObject, error) in
+            self.view.isUserInteractionEnabled = true
+            if success {
+                guard let response = responseObject as? [Dictionary<String, AnyObject>] else {
+                    print("Dedode Error bookings")
+                    return
+                    // Parse data and reload table view
+                }
+            }else {
+
+            }
+        }
         
     }
     

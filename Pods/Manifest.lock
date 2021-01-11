@@ -1,16 +1,20 @@
 PODS:
+  - Alamofire (4.9.1)
   - Cosmos (23.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Cosmos (~> 23.0)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - Cosmos
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
 
-PODFILE CHECKSUM: 2ecc1ef1e18cb6a277c5ecb50466718f1266ae2f
+PODFILE CHECKSUM: 06e5eef22430b6baeed327447f38ad8504a5bb49
 
 COCOAPODS: 1.10.0.beta.2

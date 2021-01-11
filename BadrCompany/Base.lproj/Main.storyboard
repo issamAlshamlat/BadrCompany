@@ -726,14 +726,6 @@
             <point key="canvasLocation" x="-599.27536231884062" y="-2.0089285714285712"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="YwT-3Z-sUj">
-            <size key="intrinsicContentSize" width="95" height="15"/>
-        </designable>
-        <designable name="jhm-9w-RsO">
-            <size key="intrinsicContentSize" width="124" height="20"/>
-        </designable>
-    </designables>
     <resources>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>

@@ -15,6 +15,9 @@
 		C20BB32F25AA510800B41D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20BB32E25AA510800B41D12 /* Assets.xcassets */; };
 		C20BB33225AA510800B41D12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20BB33025AA510800B41D12 /* LaunchScreen.storyboard */; };
 		C20BB33F25AA59CB00B41D12 /* UserInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BB33E25AA59CB00B41D12 /* UserInfoTableViewCell.swift */; };
+		C2CDF8EF25AC9D3700606D81 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CDF8ED25AC9D3500606D81 /* RequestManager.swift */; };
+		C2CDF8F025AC9D3700606D81 /* BaseRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CDF8EE25AC9D3600606D81 /* BaseRequestManager.swift */; };
+		C2CDF8F725AC9E3A00606D81 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CDF8F625AC9E3A00606D81 /* Constants.swift */; };
 		C2D229E625AB929D002677A8 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D229E525AB929D002677A8 /* UIViewExtension.swift */; };
 		C2D229E925AB9C57002677A8 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D229E825AB9C57002677A8 /* NavigationBar.swift */; };
 		C2D229ED25ABA069002677A8 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D229EC25ABA068002677A8 /* BottomBar.swift */; };
@@ -32,6 +35,9 @@
 		C20BB33125AA510800B41D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C20BB33325AA510800B41D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C20BB33E25AA59CB00B41D12 /* UserInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewCell.swift; sourceTree = "<group>"; };
+		C2CDF8ED25AC9D3500606D81 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		C2CDF8EE25AC9D3600606D81 /* BaseRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestManager.swift; sourceTree = "<group>"; };
+		C2CDF8F625AC9E3A00606D81 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C2D229E525AB929D002677A8 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		C2D229E825AB9C57002677A8 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		C2D229EC25ABA068002677A8 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
@@ -112,6 +118,8 @@
 		C20BB33B25AA598C00B41D12 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				C2CDF8EE25AC9D3600606D81 /* BaseRequestManager.swift */,
+				C2CDF8ED25AC9D3500606D81 /* RequestManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 				C2D229E525AB929D002677A8 /* UIViewExtension.swift */,
 				C2D229E825AB9C57002677A8 /* NavigationBar.swift */,
 				C2D229EC25ABA068002677A8 /* BottomBar.swift */,
+				C2CDF8F625AC9E3A00606D81 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -260,8 +269,11 @@
 				C2D229E625AB929D002677A8 /* UIViewExtension.swift in Sources */,
 				C20BB33F25AA59CB00B41D12 /* UserInfoTableViewCell.swift in Sources */,
 				C20BB32A25AA510300B41D12 /* ViewController.swift in Sources */,
+				C2CDF8EF25AC9D3700606D81 /* RequestManager.swift in Sources */,
 				C20BB32625AA510300B41D12 /* AppDelegate.swift in Sources */,
+				C2CDF8F725AC9E3A00606D81 /* Constants.swift in Sources */,
 				C2D229ED25ABA069002677A8 /* BottomBar.swift in Sources */,
+				C2CDF8F025AC9D3700606D81 /* BaseRequestManager.swift in Sources */,
 				C20BB32825AA510300B41D12 /* SceneDelegate.swift in Sources */,
 				C2D229E925AB9C57002677A8 /* NavigationBar.swift in Sources */,
 			);

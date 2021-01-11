@@ -7,4 +7,5 @@ target 'BadrCompany' do
 
   # Pods for BadrCompany
 pod 'Cosmos', '~> 23.0'
+pod 'Alamofire'
 end
