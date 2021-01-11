@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var userInfoView: UIView!
     @IBOutlet weak var userStatusImage: UIImageView!
     @IBOutlet weak var requestButton: UIButton!
+    @IBOutlet weak var requestButtonView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,17 +29,15 @@ class ViewController: UIViewController {
     }
 
     private func setupUI () {
-        profileImageView.layer.cornerRadius = 20
-        profileImageView.layer.masksToBounds = true
-        
         userInfoView.layer.cornerRadius = 20
         userInfoView.layer.masksToBounds = true
         userInfoView.dropShadow(color: UIColor.black , opacity: 0.6 , offSet: CGSize (width: 0, height: 0), radius: 5)
         
-        requestButton.layer.cornerRadius = 10
-        requestButton.layer.masksToBounds = true
+        requestButtonView.layer.cornerRadius = 10
+        requestButtonView.layer.masksToBounds = true
         
         profileImageView.roundCorners(corners: [.bottomRight , .bottomLeft], radius: 20)
+        profileImageView.layer.masksToBounds = true
     }
     
     private func setupTableView () {
@@ -57,6 +56,14 @@ extension ViewController : UITableViewDelegate , UITableViewDataSource {
         return cell
     }
     
-    
+//    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+//        return 10.0
+//    }
+//    
+//    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+//        let headerView = UIView()
+//        headerView.backgroundColor = UIColor.clear
+//        return headerView
+//    }
     
 }
